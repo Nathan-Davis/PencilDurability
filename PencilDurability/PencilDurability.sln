@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PencilDurability", "PencilDurability\PencilDurability.csproj", "{5B0E7FF6-B9CE-4115-B8F3-C48E8A88AC33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PencilDurabilityTests", "PencilDurabilityTests\PencilDurabilityTests.csproj", "{361BBB70-4E68-4BF7-9AB4-B81777CC9602}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B0E7FF6-B9CE-4115-B8F3-C48E8A88AC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0E7FF6-B9CE-4115-B8F3-C48E8A88AC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0E7FF6-B9CE-4115-B8F3-C48E8A88AC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0E7FF6-B9CE-4115-B8F3-C48E8A88AC33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361BBB70-4E68-4BF7-9AB4-B81777CC9602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361BBB70-4E68-4BF7-9AB4-B81777CC9602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361BBB70-4E68-4BF7-9AB4-B81777CC9602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361BBB70-4E68-4BF7-9AB4-B81777CC9602}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C039533C-B5E5-405B-9C78-CBF89D20E87D}
+	EndGlobalSection
+EndGlobal
