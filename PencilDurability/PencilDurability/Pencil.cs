@@ -5,15 +5,30 @@ namespace PencilDurability
 {
     public class Pencil
     {
-        private readonly StringBuilder text;
+        private readonly StringBuilder _text;
+        private int _durability;
 
-        public Pencil()
+        public Pencil(int durability)
         {
-            text = new StringBuilder();
+            _text = new StringBuilder();
+            _durability = durability;
         }
         public string Write(string textToWrite)
         {
-            return text.Append(textToWrite).ToString();
+            foreach (var character in textToWrite)
+            {
+                if (_durability > 0 && character != ' ')
+                {
+                    _durability--;
+                    _text.Append(character);
+                }
+                else
+                {
+                    _text.Append(' ');
+                }
+            }
+
+            return _text.ToString();
         }
     }
 }
