@@ -17,7 +17,12 @@ namespace PencilDurability
         {
             foreach (var character in textToWrite)
             {
-                if (_durability > 0 && character != ' ')
+                if (Char.IsUpper(character) && _durability > 1)
+                {
+                    _durability -= 2;
+                    _text.Append(character);
+                }
+                else if (!Char.IsUpper(character) && _durability > 0 && character != ' ')
                 {
                     _durability--;
                     _text.Append(character);
